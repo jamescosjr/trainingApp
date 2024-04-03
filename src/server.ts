@@ -1,9 +1,6 @@
 import express from 'express';
 import connectToDatabase from './database';
 import trainingRoutes from './routes';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 const app = express();
 
